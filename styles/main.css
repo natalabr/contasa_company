@@ -135,7 +135,14 @@ footer.calculation {
     color: rgb(167, 204, 240);
 }
 
-/** new styles **/
+@media screen and (max-width: 768px) {
+    .invoice-address-container-flex {
+        display: flex;
+        justify-content: flex-start;
+        color: #bbbbbb;
+    }
+}
+
 .warranty-table {
     margin-top: 24px;
     width: 650px;
@@ -169,7 +176,6 @@ footer.calculation {
 }
 
 
-/** advanced, displays borders between topics */
 .warranty-table tr.topic > * {
     padding-top: 10px;
     border-top: 1px solid darkgray;
